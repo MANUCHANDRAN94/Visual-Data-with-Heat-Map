@@ -1,0 +1,43 @@
+html{
+    min-height: 100%;
+
+}
+body{
+    background-color: #322f3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: cornsilk;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1200px;
+    background-color: #87556f;
+    border-radius: 10%;
+    padding-top: -110px;
+}
+
+#tooltip{
+position: absolute;
+bottom: -40px;
+}
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+    background-color: #322f3d;
+    position: absolute;
+    bottom:-210px;
+    right: 0px;
+}
+g{ 
+    color: black
+}
